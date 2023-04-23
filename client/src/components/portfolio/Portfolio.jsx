@@ -1,7 +1,5 @@
 import React from "react";
 import cryptoapp1 from "../../assets/cryptoapp1.jpg";
-// import garage1 from "../../assets/garage1.jpg";
-// import resort1 from "../../assets/resort1.jpg";
 import "./portfolio.css";
 const Portfolio = () => {
   const projects = [
@@ -11,18 +9,24 @@ const Portfolio = () => {
       github: "https://github.com/benshabbat/Cryptoapp",
       link: "https://cryptoappbenshabbat.netlify.app/",
     },
-    // {
-    //   name: "garage",
-    //   image: garage1,
-    //   github: "https://github.com/benshabbat/GarageWeb",
-    //   link: null,
-    // },
-    // {
-    //   name: "resort",
-    //   image: resort1,
-    //   github: "https://github.com/benshabbat",
-    //   link: null,
-    // },
+    {
+      name: "garage",
+      image: cryptoapp1,
+      github: "https://github.com/benshabbat/garage-js-react-node",
+      link: null,
+    },
+    {
+      name: "airBnb",
+      image: cryptoapp1,
+      github: "https://github.com/benshabbat/airbnb",
+      link: null,
+    },
+    {
+      name: "netflix",
+      image: cryptoapp1,
+      github: "https://github.com/benshabbat/netflix-ts",
+      link: null,
+    },
   ];
 
   const printProject = projects.map((project) => {
